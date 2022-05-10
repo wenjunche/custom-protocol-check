@@ -1,0 +1,42 @@
+{
+    "compilerOptions": {
+        "rootDir": ".",
+        "target": "es2018",
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ],
+        "useUnknownInCatchVariables": false,
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "preserveSymlinks": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "isolatedModules": false,
+        "noEmit": false,
+        "jsx": "react",
+        "resolveJsonModule": true,
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "outDir": "./dist"
+    },
+    "include": [
+        "*.ts*"
+    ],
+    "exclude": [
+        ".cache",
+        "dist",
+        "config",
+        "build-scripts",
+        "public"
+    ]
+}
