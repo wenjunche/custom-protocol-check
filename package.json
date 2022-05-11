@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/wenjunche/custom-protocol-check#readme",
   "dependencies": {
-    "custom-protocol-detection": "^1.0.1"
+    "custom-protocol-detection": "git+https://github.com/pbaize/custom-protocol-detection.git"
   },
   "devDependencies": {
     "html-webpack-plugin": "^5.5.0",
